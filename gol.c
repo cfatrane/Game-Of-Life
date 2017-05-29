@@ -6,7 +6,7 @@
 /*   By: cfatrane <cfatrane@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/29 13:06:58 by cfatrane          #+#    #+#             */
-/*   Updated: 2017/05/29 17:38:49 by cfatrane         ###   ########.fr       */
+/*   Updated: 2017/05/29 17:40:08 by cfatrane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	fill_tab(int **map, int collumns, int lines)
 
 	i = 0;
 	j = 0;
-	while (i < lines)
+	while (i++ < lines)
 	{
 		while (j < collumns)
 		{
@@ -38,7 +38,6 @@ void	fill_tab(int **map, int collumns, int lines)
 			j++;
 		}
 		j = 0;
-		i++;
 	}
 }
 
